@@ -42,7 +42,12 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text("Flutter Container"),
       ),
       body: Center(
-          child: Text('Hello World', style: TextStyle(fontSize: 25))
+        child: Container(
+          width: 200,
+          height: 100,
+          color: Colors.blueGrey,
+          child: Center(child: Text('This is center of Container', style: TextStyle(color: Colors.white),)),
+        ),
       )
 
 
