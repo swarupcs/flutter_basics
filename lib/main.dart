@@ -41,12 +41,13 @@ class _MyHomePageState extends State<MyHomePage> {
 
         title: Text("Flutter Container"),
       ),
-      body: OutlinedButton(
-        child: Text('Outlined Button'),
-        onPressed: (){
-          print('Outlined Clicked');
-        },
-      )
+      body: Center(
+          child: Container(
+              width: 100,
+              height: 100,
+              child: Image.asset('assets/images/logo.png'),),
+      ),
+      
 
 
     );
