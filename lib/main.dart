@@ -41,15 +41,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
         title: Text("Flutter Container"),
       ),
-      body: TextButton(
-        child: Text('Click here!!!'),
+      body: ElevatedButton(
+        child: Text('Elevated Button'),
         onPressed: (){
-          print('Text Button Tapped!');
+          print('Button pressed');
         },
-        onLongPress: (){
-          print('LongPressed!!!');
-        },
-
       )
 
 
